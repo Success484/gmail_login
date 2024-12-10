@@ -107,9 +107,9 @@
 	<form action="" method="post">
 		{% csrf_token %}
 	<label for="" id="input1_label" style="display: none;" class="text-sm text-blue-500 mb-1">Email or phone</label>
-    <input id="input1" type="email" name="email" placeholder="Email or phone" class="border-2 border-gray-300 rounded-lg p-2 w-full mb-2" />
+    <input id="input1" required type="email" name="email" placeholder="Email or phone" class="border-2 border-gray-300 rounded-lg p-2 w-full mb-2" />
     <label for="" id="input2_label" style="display: none;" class="text-sm text-blue-500 mb-1 mt-2">Password</label>
-	<input id="input2" type="password" name="password" placeholder="Password" class="border-2 border-gray-300 rounded-lg p-2 w-full mb-1" />
+	<input id="input2" required type="password" name="password" placeholder="Password" class="border-2 border-gray-300 rounded-lg p-2 w-full mb-1" />
     <a href="#" class="text-blue-500 text-sm">Forgot email?</a>
     <p class="text-sm text-muted-foreground mb-4 mt-5">Not your computer? Use Private Browsing windows to sign in.</p>
     <a href="#" class="text-blue-500 text-sm mb-4">Learn more about using Guest mode.</a>
